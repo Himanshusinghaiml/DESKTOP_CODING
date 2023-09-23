@@ -20,6 +20,10 @@ void college()
         for(auto i:m)if(i.second>1)sum+=i.first;    
         cout<<endl<<sum;
 }
+void function1()
+{
+    
+}
 void mappingarray()
 {       int n=7;
         int arr[]={1,1,2,1,3,3,3}; int sum=0;
