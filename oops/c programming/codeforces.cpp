@@ -22,7 +22,7 @@ void college()
 }
 void function1()
 {
-    
+
 }
 void mappingarray()
 {       int n=7;
@@ -40,7 +40,7 @@ int main()
     map<int,int>m;
     map<int,int>::reverse_iterator it;
     m[50]=70;
-    m[10]=90;
+    m[10]=100;
     m.insert(make_pair(80,100));
     for(auto i:m)cout<<i.first<<" "<<i.second<<endl;
     for(it=m.rbegin();it!=m.rend();it++)
