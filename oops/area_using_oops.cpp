@@ -30,7 +30,7 @@ class check
 {  public:
    int length;
    int breadth;
-   check(  int l,int b)
+   check( int l,int b)
    {
     length=l;
     breadth=b;
@@ -41,7 +41,7 @@ class check
 int main()
 {
    check s1(5,2);
-    cout<<s1.length;
+   cout<<s1.length;
 
     
 
