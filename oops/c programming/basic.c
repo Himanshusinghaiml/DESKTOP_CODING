@@ -23,11 +23,11 @@ void range()
 int main()
 {
   unsigned short int a=65535;// this is ohk for unsigned 0-to 65535
-  unsigned short int b=65536;// gives warning but output=0
+  unsigned short int b=65536;// gives warning but output=0  yes 
   printf("%d \n",a);
   printf("%d  ",b);
   range();
   range1();
   sort();
     return 0;
-}
+}  // this is a code snippet often asked in  technical interview 

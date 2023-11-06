@@ -2,11 +2,9 @@
 using namespace std;
 int main()
 {   
-    string c,d;
-    cout<<" enter the name"<<endl;
-    // cin>>c;
-    getline(cin,c);
-    
-    cout<<" this is your  name :"<<c;
-    return 0;
+    string s;
+    cout<<" enter the name of the student "<<endl;
+    getline(cin,s);
+    cout<<" your name is :"<<s;
+
 }
