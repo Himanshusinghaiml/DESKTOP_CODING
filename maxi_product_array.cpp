@@ -24,6 +24,4 @@ int main()
       int n= sizeof(arr)/sizeof(arr[0]);
       cout<<maxi_product(arr,n);
       cout<<n;
-
-
 }
